@@ -12,19 +12,19 @@ sudo apt-get update
 sudo apt-get install -y android-tools-adb android-tools-fastboot
 ```
 
-### Phone Prepere
-## Config your Phone for ADB over Wifi
+## Phone Prepere
+### Config your Phone for ADB over Wifi
 
-Enable Usbdebuging in Developer option on phone
-connet to pc with usb cable
-Allow the connect on Phone
-type in terminal
+-Enable Usbdebuging in Developer option on phone
+-connet to pc with usb cable
+-Allow the connect on Phone
+-type in terminal
 ```adb tcpip 5555```
-unplug the usb
+-unplug the usb
 
-now we are connecting to phone again over wifi
-```adb connect <device IP>:5555```
-after we connected
+-now we are connecting to phone again over wifi
+-```adb connect <device IP>:5555```
+-after we connected
 
 optional:
 
